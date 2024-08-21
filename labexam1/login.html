@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h3> เข้าสู่ระบบ / ลงทะเบียน </h3>
+    <form action="optionreg.html" method="post" target="_blank">
+        <select name="category" id="category" class="category">
+            <option value="" disabled selected>เลือกประเภท</option>
+            <option value="1">ประเภท 1</option>
+            <option value="2">ประเภท 2</option>
+            <option value="3">ประเภท 3</option>
+        </select><br><br>
+        เลขประจำตัวประชาชน <br>
+        <input class="txt" type="text" id="userid" name="userid" size="25" placeholder=" เลขประจำตัว"><br><br>
+
+        รหัสผ่าน <br>
+        <input class="txt" type="password" id="password" name="pass" size="25" placeholder=" รหัสผ่าน"><br><br>
+        
+        <div>
+        <input class="btnsubmit" type="submit" id="send" name="send" value="เข้าสู่ระบบ"><br><br>
+        
+        <p>หากท่านยังไม่มีรหัสผู้ใช้งาน</p> <br>
+
+        <input class="btnreg" type="submit" id="send" name="send" value="สมัครสมาชิก">
+        </div>
+       
+    </form>
+    
+</body>
+</html>

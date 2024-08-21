@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: monospace;
+}
+header{
+    width: auto;
+    height: 600px;
+    background-image: url("home1.png");
+    
+}
+.nav1{
+    text-align: center;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    padding: 0 2rem;
+    background-color: aqua;
+}
+.nav2{
+    display: flex;
+    padding: 1rem;
+    background-color: white;
+}
+.btnlogin{
+    border: solid 1px aqua;
+    border-radius: 2px;
+    color: skyblue;
+    float: right;
+}
+ul{
+    display: flex;
+    list-style-type: none ;
+    gap: 2rem;
+}
+.menu{
+    text-decoration: none;
+    color: black;  
+}

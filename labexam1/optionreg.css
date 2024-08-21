@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+body{
+    background-color: skyblue;
+}
+.op1{
+    border: none;
+    border-radius: 3px;
+    width: 250px;
+    height: 150px;
+    background-image:url(optionreg1.png) ;
+    background-size:cover ;
+    margin: 8rem 2rem;
+}
+.op2{
+    border: none;
+    border-radius: 3px;
+    width: 250px;
+    height: 150px;
+    background-image:url(optionreg2.png) ;
+    background-size:cover ;
+}
