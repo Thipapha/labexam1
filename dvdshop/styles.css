@@ -1,0 +1,178 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7e8d5;
+  margin: 0;
+  padding: 0;
+  
+}
+  
+h1 {
+  text-align: center;
+  color: #003265;
+  padding-top: 2rem;
+}
+  
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-bottom: 20px;
+  margin: 20px auto;
+}
+  
+th{
+  border: 1px solid #38322d;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #38322d;
+  background-color: #c6af92;
+  padding: 10px;
+  text-align: left;
+}
+  
+th {
+  background-color: #71685f;
+
+}
+
+.button_insert {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+  
+.button_insert:hover {
+  background-color: #3e8e41;
+}
+  
+a {
+  text-decoration: none;
+  color: #337ab7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+a:hover {
+  color: #23527c;
+}
+
+  
+td a {
+  text-decoration: none;
+  color: #337ab7;
+}
+  
+td a:hover {
+  color: #23527c;
+}
+  
+td button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+td button:hover {
+  background-color: #3e8e41;
+}
+
+
+form {
+  background-color: #c6af92;
+  width: 50%;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #c6af92;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+input[type="reset"] {
+  background-color: grey;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: red;
+}
+
+.buttonhome {
+  background-color: grey;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonhome:hover {
+  background-color: red;
+}
+
+
+.buttongoto {
+  background-color: #f7e8d5;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttongoto:hover {
+  background-color: grey;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.button_insert {
+  margin: 0 10px;
+}
