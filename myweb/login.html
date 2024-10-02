@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <h1> Login Website </h1><br>
+    <form action="receivelogin.php" method="post" target="_blank">
+        <input class="txt" type="text" id="user" name="user"  size="25" placeholder=" Username"> <br><br>
+        <input class="txt" type="password" id="password" name="pass" size="25" placeholder=" Password"><br><br><br>
+
+        เมื่อกรอกข้อมูลครบแล้ว กรุณากดปุ่มเพื่อเข้าสู่ระบบ <br><br>
+
+        <input class="btnreset" type="reset" id="cancel" name="cancel" value="ยกเลิก" class="reset">
+        <input class="btnsubmit" type="submit" id="send" name="send" value="เข้าสู่ระบบ" class="login">
+       
+    </form>
+    <hr width="400px" color="#007fbd">
+    <form action="member.html" method="post" target="_blank">
+        <h1> Register </h1>
+        click to me <input  class="btnreg" type="submit" id="submit" name="register" value="สมัครสมาชิก" class="register">
+    </form>
+</body>
+</html>

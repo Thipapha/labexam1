@@ -1,0 +1,58 @@
+body{
+    background-image: url("bg1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+h1{
+    color: #007fbd;
+    font-size: 40px;
+    text-shadow: 1px;
+}
+.txt{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 2px;
+    border-radius: 8px;
+}
+.btnsubmit{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid 3px #007fbd;
+    background-color:#b1d4e5 ;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.btnreset{
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid 3px #007fbd;
+    width: 100px;
+    height: 40px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.btnreg{ 
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: solid 3px #007fbd;
+    background-color:#b1d4e5 ;
+    width: auto;
+    height: 40px;
+}
+
